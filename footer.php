@@ -178,6 +178,20 @@
        
        });
 
+         $("#search").on("keyup", function() {
+          var search = $(this).val();
+
+         $.ajax({
+               url : "search-trem.php",
+               type : "POST",
+               data : {search_trem : search},
+               success : function(data) {
+               
+                  $("#loadTable").html(data);
+               }
+       });
+       })
+
     });
 </script>
 </body>
