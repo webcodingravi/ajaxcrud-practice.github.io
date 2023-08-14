@@ -8,6 +8,12 @@
                      <a href="add-form.php">Add Data</a>
                     </div>
                 </div>
+
+                          <div class="col-5 mt-5 ms-4">
+                <div class="search_box">
+                        <input type="text" name="search" class="form-control" placeholder="Search..." id="search">
+                    </div>
+                    </div>
                 <div class="col-12">
                     <table class="table table-bordered" id="loadTable">
 
